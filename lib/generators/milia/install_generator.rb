@@ -45,7 +45,7 @@ module Milia
            gem 'airbrake'
          end
 
-         gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
+         gem 'activerecord-session_store', git: 'https://github.com/snawar92/activerecord-session_store.git'
 
          run_bundle
       end
